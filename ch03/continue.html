@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>continue문 예제</title>
+</head>
+<body>
+    <h2>continue문 예제</h2>
+    <script>
+        //1~10 자연수 중 5를 제외한 수 출력
+        for(var i=1; i<=10; i++)
+        {   if(i === 5||i===7)
+                continue;
+            document.write(i+"<br>");
+        }
+        //1 ~ 30까지 자연수 중 3배수를 출력
+        for(var i=1; i<=30; i++){
+            if(i % 3!== 0)
+                continue;
+                
+            document.write(i+"<br>");
+        }
+    </script>
+
+
+    
+</body>
+</html>

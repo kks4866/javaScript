@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사진 바꾸기</title>
+    <style>
+        #container{width: 600px ; margin: 0 auto;}
+    </style>
+</head>
+<body>
+    <div id = "container">
+        <img src="images/cup-1.png" id="cup">
+    </div>
+    <script>
+        // 자바스크립트의 객체의 onclick 속성 사용
+        var cup = document.querySelector("#cup");
+            cup.onclick = function(){
+            cup.src = "images/cup-2.png";
+        }
+
+        // cup.onclick = changePic ; //changePic의 ()생략
+
+        // function changePic(){
+        //     cup.src="images/cup-2.png";
+        // }
+    </script>
+</body>
+</html>

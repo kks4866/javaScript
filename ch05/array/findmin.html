@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배열의 최대값 구하기</title>
+</head>
+<body>
+    <script>
+        
+        var nums = [17, 53 , 77, 4 , 91, 60];
+        // 최소값 변수 설정
+        var min = nums[0];
+        for(var i=1; i<nums.length; i++){
+            if(min > nums[i])
+            min = nums[i];
+        }
+        document.write("최소값 : "+ min +"<br>");
+         // 최소값 출력
+
+
+         
+    </script>
+</body>
+</html>

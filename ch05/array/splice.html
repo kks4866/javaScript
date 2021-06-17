@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배열 객체의 함수</title>
+</head>
+<body>
+    <h2>배열의 특정 인덱스에 추가, 삭제</h2>
+    <script>
+        // 요소 삭제
+        var animal = ['소', '돼지','강아지','고양이'];
+        // 소, 돼지 삭제
+        animal.splice(0,2); ; // 0번 인덱스에서 2개 삭제
+
+        document.write(animal +"<br>");
+
+        //요소 추가
+
+        animal.splice(0,0, "말"); //0번 인덱스에서 삭제하지 않고 '말' 추가
+        document.write(animal);
+    </script>
+    
+</body>
+</html>
